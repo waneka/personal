@@ -13,17 +13,10 @@ class App extends Component {
               Tyler Waneka
             </div>
           </IndexLink>
-          <div className="Sidebar-border-bottom">
-            <img src={logo} className="App-logo" alt="logo" />
-          </div>
+          <div className="Sidebar-border-bottom"></div>
           <Link to="/tools" className="Sidebar-link">
             <div className="Sidebar-link-wrapper">
               Tools
-            </div>
-          </Link>
-          <Link to="/blogs" className="Sidebar-link">
-            <div className="Sidebar-link-wrapper">
-              Blogs
             </div>
           </Link>
           <Link to="/contact" className="Sidebar-link">

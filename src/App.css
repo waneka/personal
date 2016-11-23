@@ -59,20 +59,28 @@
 }
 
 .Home-image {
-  width: 400px;
-  height: 400px;
+  width: 320px;
+  height: 320px;
 }
 
 .Home-text {
   margin: 20px 0 0 20px;
 }
 
+.Home-text-bottom {
+  width: 80%;
+}
+
 .Home-content {
   width: 90%;
 }
 
+.mt {
+  margin-top: 20px;
+}
+
 .font--h1 {
-  font-size: 72px;
+  font-size: 90px;
 }
 
 .flex {
