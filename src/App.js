@@ -28,7 +28,7 @@ class App extends Component {
           </Link>
           <Link to="/contact" className="Sidebar-link">
             <div className="Sidebar-link-wrapper">
-              Contact Me
+              Contact
             </div>
           </Link>
         </div>

@@ -8,7 +8,7 @@
   width: 20%;
   text-align: center;
   padding-top: 20px;
-  color: white;
+  color: #F2F1EF;
   font-size: 20px;
   font-family: 'Inconsolata', serif;
 }
@@ -19,7 +19,7 @@
 }
 
 .Sidebar-link {
-  color: white;
+  color: #F2F1EF;
   text-decoration: none;
 }
 
@@ -54,7 +54,38 @@
 }
 
 .Main-content {
+  width: 80%;
   margin: 20px 0px 0px 20px;
+}
+
+.Home-image {
+  width: 400px;
+  height: 400px;
+}
+
+.Home-text {
+  margin: 20px 0 0 20px;
+}
+
+.Home-content {
+  width: 90%;
+}
+
+.font--h1 {
+  font-size: 72px;
+}
+
+.flex {
+  display: flex;
+}
+
+.link--obvious {
+  text-decoration: none;
+  color: #4183D7;
+}
+
+.link--obvious:hover {
+  text-decoration: underline;
 }
 
 @keyframes App-logo-spin {
