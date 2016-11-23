@@ -1,5 +1,40 @@
 .App {
+  display: flex;
+}
+
+.App-sidebar {
+  height: 100vh;
+  background-color: #34495E;
+  width: 20%;
   text-align: center;
+  padding-top: 20px;
+  color: white;
+  font-size: 20px;
+  font-family: 'Inconsolata', serif;
+}
+
+.Sidebar-name {
+  font-size: 48px;
+  padding: 20px 0px;
+}
+
+.Sidebar-link {
+  color: white;
+  text-decoration: none;
+}
+
+.Sidebar-border-bottom {
+  border-bottom: 1px solid rgba(0,0,0,0.3);
+}
+
+.Sidebar-link-wrapper {
+  padding: 10px 0px;
+  border-bottom: 1px solid rgba(0,0,0,0.3);
+  border-top: 1px solid rgba(255,255,255,0.04);
+}
+
+.Sidebar-link-wrapper:hover {
+  background-color: #2C3E50;
 }
 
 .App-logo {
@@ -16,6 +51,10 @@
 
 .App-intro {
   font-size: large;
+}
+
+.Main-content {
+  margin: 20px 0px 0px 20px;
 }
 
 @keyframes App-logo-spin {
